@@ -1,0 +1,17 @@
+{
+  "name": "bellasdm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron . ",
+    "build": "electron-builder"
+  },
+  "author": "Le Ngoc Cuong (Belling Bella Bubbline)",
+  "license": "GPL-3.0",
+  "description": "",
+  "dependencies": {
+    "electron": "^33.0.2",
+    "electron-builder": "^25.1.8",
+    "express": "^4.21.1"
+  }
+}

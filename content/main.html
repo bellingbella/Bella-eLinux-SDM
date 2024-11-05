@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="/bellasdm/config.json"></script>
+    <script src="/bellasdm/data?file=login.js"></script>
+    <script src="/bellasdm/theme-data?file=main.js"></script>
+</head>
+<body base="body" class="body">
+    <div class="header">
+        <p id="timep">1:14</p>
+
+        <button class="quit_menu">Shutdown</button>
+    </div>
+   <div class="super">
+        <div class="left" id="l">
+            
+        </div>
+    
+
+        <div class="right" id="r">
+            <div class="context" id="ctx" base="context">
+                <div class="other" id="etc" base="other"></div>
+                <div class="login" id="login_form" base="login">
+                    <form action="javascript:login()" class="formlogon">
+                        <input class="usernameBox" id="username" base="usernameBox" common="input_inform" type="text" placeholder="Username" required />
+                        <input class="passwordBox" type="password" id="password" base="passwordBox" common="input_inform" placeholder="Password" required />
+                    
+                        <div class="group-login">
+                            <input type="submit" class="click" id="iClick" base="click" common="submit_inform" value="login">
+                            <select class="envBox" id="env" base="envBox" common="select_inform"></select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+     <script src="/bellasdm/theme-data?file=footer.js"></script>
+
+
+</body>
+</html>
