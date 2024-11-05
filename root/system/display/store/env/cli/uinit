@@ -1,0 +1,6 @@
+#!/bin/sh
+export DISPLAY=:0
+pkill Bella
+echo hi
+thunar &
+echo 1 > /run/killBella
